@@ -186,3 +186,32 @@ main section {
   text-align: center;
  margin-top: 50px;
 } 
+
+/* footer style */
+footer{
+  display: flex;
+  margin-top: 100px;
+  padding: 130px 200px;
+  gap: 100px;
+}
+.social-media-links{
+
+  display: flex;
+}
+.icons img{
+  width:25px ;
+  padding: 10px;
+  border-radius: 50%;
+
+}
+ 
+.icons img:hover{
+background-color: #dfdede;
+
+}
+.footer-column{
+  width: 50%;
+}
+ footer .section-desc{
+  text-align: left;
+ }
